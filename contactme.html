@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Abby Bee Photography :: Contact Me</title>
+	<meta charset="utf-8">
+	<link href="photography.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+		<nav>
+			<ul>
+				<li><a href="index.html">Main Page</a></li>
+				<li><a href="services.html">Services</a>
+					<ul>
+						<li><a href="specialoccassions.html">Special Occassions</a></li>
+						<li><a href="graduation.html">Graduations</a></li>
+					</ul>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">About Me</a></li>
+				<li><a href="contactme.html">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1>Contact Me</h1>
+		</header>
+
+		<main>
+			<p>
+				Required fields are marked with an asterisk *.
+			</p>
+
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+				<label for="myFName">* First Name:</label>
+				<input type="text" name="myFName" id="myFName" required="required">
+
+				<label for="myLName">* Last Name:</label>
+				<input type="text" name="myLName" id="myLName" required="required">
+
+				<label for="myEmail">* E-Mail Address:</label>
+				<input type="email" name="myEmail" id="myEmail" required="required">
+
+				<label for="myPhone">Phone Number:</label>
+				<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+
+				<label for="myDate">Date:</label>
+				<input type="date" name="myDate" id="myDate">
+
+				<label for="myHours">Hours:</label>
+				<input type="number" min="1" max="14" name="myHours" id="myHours">
+
+				<label for="myComments">* Comments:</label>
+				<textarea rows="2" cols="30" name="myComments" id="myComments" required="required"></textarea>
+
+				<input type="submit">
+			</form>
+		</main>
+
+		<footer class="clear">
+			<br>Copyright &copy; Classic 2000's Website<br>
+			<a href="mailto:4800629575@davistech.edu">
+				4800629575@davistech.edu
+			</a>
+		</footer>
+
+	</div>
+</body>
+
+</html>
